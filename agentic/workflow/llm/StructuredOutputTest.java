@@ -3,7 +3,7 @@ package agentic.workflow.llm;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class StructuredOutputFunctionalTest{
+public class StructuredOutputTest{
     @Test
     public void testContainsExistingType(){
         SchemaType[] schemaTypes = {SchemaType.INT, SchemaType.STRING};
