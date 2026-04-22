@@ -1,5 +1,7 @@
 package agentic.workflow.llm;
 
+import java.util.Arrays;
+
 public class StructuredOutput{
     private final SchemaType[] schemaTypes;
     
@@ -12,7 +14,7 @@ public class StructuredOutput{
     }
 
     public SchemaType[] getSchemaTypes(){
-        return schemaTypes;
+        return Arrays.copyOf(schemaTypes, schemaTypes.length);
     }
 
     public boolean contains(SchemaType schemaType){
