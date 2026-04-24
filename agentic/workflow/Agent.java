@@ -78,7 +78,6 @@ public class Agent{
                     throw new WorkflowFormatException("Wrong format!");
                 }
             }
-            System.err.println(newAgent.getStepCount());
             return newAgent;
         } catch(FileNotFoundException e){
             System.err.println("File not found.");
