@@ -1,0 +1,13 @@
+AGENT: agent
+STEP
+name=firststep
+prompt=prompt1
+systemPrompt=sysprompt1
+output=INT
+ENDSTEP
+STEP
+name=secondstep
+prompt=prompt1
+systemPrompt=sysprompt1
+output=INT
+ENDSTEP
