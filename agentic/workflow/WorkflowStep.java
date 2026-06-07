@@ -12,7 +12,7 @@ public class WorkflowStep {
     public WorkflowStep(String name, String prompt, String systemPrompt, StructuredOutput structuredOutput){
         if(name.equals("") || name.equals(" ") || 
             prompt.equals("") || prompt.equals(" ") ||
-            systemPrompt.equals("") || prompt.equals(" ") ||
+            systemPrompt.equals("") || systemPrompt.equals(" ") ||
             structuredOutput == null) throw new IllegalArgumentException("a `name`, `prompt` és `systemPrompt` nem lehet üres, a `structuredOutput` pedig nem lehet `null`.");
         
         this.name = name;

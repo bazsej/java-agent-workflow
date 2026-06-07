@@ -78,6 +78,7 @@ public class Agent{
                     throw new WorkflowFormatException("Wrong format!");
                 }
             }
+            reader.close();
             return newAgent;
         } catch(FileNotFoundException e){
             System.err.println("File not found.");
