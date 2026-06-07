@@ -6,7 +6,7 @@ Háttérrendszeri (backend) alkalmazás, amely ügynökök (ágensek) munkafolya
 * **Nyelv:** Java
 * **Tesztelés:** JUnit 5 (Kiterjedt Unit tesztek az üzleti logikára és a kivételkezelésre).
 * **Architektúra:** Objektumorientált felépítés, saját egyedi kivételosztály (`WorkflowFormatException`) a hibás formátumú bemenetek transzparens kezelésére.
-* Adatszerkezetek (List, HashMap) és Enumok (`SchemaType`) haladó szintű alkalmazása.
+* Adatszerkezetek (`List, HashMap`) és Enumok (`SchemaType`) haladó szintű alkalmazása.
 
 ## ⚙️ Funkciók
 * Workflow leíró `.txt` fájlok beolvasása és szintaktikai elemzése (parsing).
